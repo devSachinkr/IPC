@@ -11,7 +11,7 @@ class IPCDebugger:
         self.window.geometry("800x600")
         self.setup_gui()
         
-        # IPC variables (multiprocessing removed)
+        # IPC- variables (multiprocessing removed)
         self.message_queue = queue.Queue()
         self.shared_data = {"value": 0, "lock": threading.Lock()}
         self.pipe_messages = []  # Simulate pipes with list
