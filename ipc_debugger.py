@@ -193,6 +193,6 @@ class IPCDebugger:
         self.window.mainloop()
 
 if __name__ == "__main__":
-    # Create and run the debugger
+    # Create & run the debugger
     debugger = IPCDebugger()
     debugger.run()
